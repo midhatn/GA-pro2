@@ -36,20 +36,12 @@ export default class App extends Component {
   }
 
   render() {
-    // console.log(this.state.cat !== null ? this.state.cat.file : "")
-    // console.log(this.state.dog !== null ? this.state.dog.url : "")
-    // console.log(this.state.joke !== null ? this.state.joke.value.joke : "")
-    // console.log(this.state.quiz !== null ? this.state.quiz.results[0].question : "")
-    // console.log(props.dogimage)
-    // console.log(props.dogjoke)
+
 
 
 
     return (
       <>
-        {/* <Dog dogimage={this.state.dog !== null ? this.state.dog.url : ""}></Dog> */}
-{/* <Joke jokemsg={this.state.joke !== null ? this.state.joke.value.joke : ""}></Joke>  */}
-
         <Router>
           <div>
             <nav>

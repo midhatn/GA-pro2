@@ -3,7 +3,7 @@ import React from 'react'
 const Quiz = (props) => {
     return (
         <div>
-            {props.quiz}
+            <p>{props.quiz}</p>
         </div>
     )
 }

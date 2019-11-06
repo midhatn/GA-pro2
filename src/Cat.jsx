@@ -3,7 +3,8 @@ import Quiz from "./Quiz"
 const Cat = (props) => {
     return (
         <div>
-            {props.catimage}
+            <img src={props.catimage} alt="cute cat"></img>
+            
             <Quiz quiz={props.catquiz}></Quiz>
         </div>
     )
