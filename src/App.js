@@ -29,7 +29,7 @@ export default class App extends Component {
       .then(response => response.json())
       .then(dog => this.setState({ dog }));
 
-    fetch('http://api.icndb.com/jokes/random')
+    fetch('https://api.icndb.com/jokes/random')
       .then(response => response.json())
       .then(joke => this.setState({ joke }));
 
