@@ -8,7 +8,7 @@ const Quiz = (props) => {
 
     const popover = (
         <Popover id="popover-basic">
-          <Popover.Title as="h3">Answer</Popover.Title>
+          <Popover.Title as="h4">Answer</Popover.Title>
           <Popover.Content>
           {props.quiz.correct_answer}
           </Popover.Content>

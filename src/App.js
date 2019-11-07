@@ -51,7 +51,7 @@ export default class App extends Component {
         
 
 
-  <Navbar bg="dark" variant="dark">
+  <Navbar  variant="dark">
     <Navbar.Brand href="/">Boring</Navbar.Brand>
     <Nav className="mr-auto">
   <Nav.Link href="/DogJ">Dog</Nav.Link>
@@ -72,7 +72,7 @@ export default class App extends Component {
 
               </Route>
               <Route path="/">
-            <Home />
+            <Home color="white"/>
           </Route>
             </Switch>
           </div>

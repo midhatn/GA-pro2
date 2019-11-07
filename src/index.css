@@ -1,5 +1,13 @@
 body {
-  background-color: #e0efef;  
+  background-image: url("./769139.jpg");
+  height: 100%;
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  
+ }
+ h1 ,h3 {
+color: white !important;
  }
  
  /* Contain demo size */
@@ -43,4 +51,8 @@ body {
    display: block;
    right: 75%;
    position: relative;
+ }
+
+ .home{
+   color :white;
  }
