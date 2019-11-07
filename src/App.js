@@ -1,5 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { Navbar, Nav,} from 'react-bootstrap';
 import Dog from "./Dog"
 import Cat from "./Cat"
 
@@ -39,24 +42,23 @@ export default class App extends Component {
 
 
 
-
     return (
       <>
+  
+
         <Router>
           <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/DogJ">Dog</Link>
-                </li>
-                <li>
-                  <Link to="/CatQ">Cat</Link>
-                </li>
-              </ul>
-            </nav>
+        
+
+
+  <Navbar bg="dark" variant="dark">
+    <Navbar.Brand href="/">Boring</Navbar.Brand>
+    <Nav className="mr-auto">
+  <Nav.Link href="/DogJ">Dog</Nav.Link>
+  <Nav.Link href="/CatQ">Cat</Nav.Link>
+  </Nav>
+    
+    </Navbar>
 
 
             <Switch>
@@ -66,7 +68,7 @@ export default class App extends Component {
 
               </Route>
               <Route path="/CatQ">
-                <Cat catimage={this.state.cat !== null ? this.state.cat.file : ""} catquiz={this.state.quiz !== null ? this.state.quiz.results[0].question : ""}></Cat>
+                <Cat catimage={this.state.cat !== null ? this.state.cat.file : ""} catquiz={this.state.quiz !== null ? this.state.quiz.results[0] : ""}></Cat>
 
               </Route>
               <Route path="/">
