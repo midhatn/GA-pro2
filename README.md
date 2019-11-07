@@ -45,25 +45,27 @@ User must be able to:
 
 ## Planning and Development Process
 
-A basic story of your planning and developing this project.
-
+start by learning how each api workm geeting information from it then using router to divide pages into 
 ### Problem-Solving Strategy
 
-What strategy did you use to solve your problems.
+Solve every problem faced as i go
 
 ### Unsolved problems
 
-List unsolved problems which would be fixed in future iterations.
-
+CSS :"P
 ## APIs Used
 
 List your APIs you have used in this project and explain why did you use it.
 
----
+- https://aws.random.cat/meow
+- https://random.dog/woof.json
+- https://api.icndb.com/jokes/random
+- https://opentdb.com/api.php
+
+Free and fun to use!
 
 ## Acknowledgments
 
-
----
+Thnak you free APIm and ofcourse GA team!
 
  ## References
